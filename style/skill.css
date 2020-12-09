@@ -14,6 +14,7 @@
   max-height: 25%;
   max-width: 25%;
   border-radius: 50%;
+  -webkit-clip-path: url(#skill-R4);
   clip-path: url(#skill-R4);
   transform: translate(-50%, -50%);
 }
@@ -28,6 +29,7 @@
 .skill-skillImg {
   position: absolute;
   height: 100%;
+  -webkit-clip-path: url(#skill-R5clip);
   clip-path: url(#skill-R5clip);
 }
 .skill-skillText {
@@ -40,6 +42,7 @@
   vertical-align: middle;
   text-align: center;
   white-space: pre-line;
+  -webkit-clip-path: url(#skill-R5clip);
   clip-path: url(#skill-R5clip);
   opacity: 0;
   transition: opacity 0.3s;
